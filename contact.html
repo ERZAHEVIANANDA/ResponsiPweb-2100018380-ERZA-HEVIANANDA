@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RESPONSI PRAKTIKUM PEMROGRAMAN WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Fancy Tiger BarberShop</h1>
+                <p class="subtitle">Experience Your Hair With Us</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="galerry.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current-page">Contact</a></li>
+                    <li><a href="loginadmin.html">Login</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>Contact Us</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4> located at</h4>
+                <p> Virtual World Kwangya</p>
+                <p>Kwangya street, South Korea (37°32'40.2"N 127°02'40.0"E (37.544500, 127.0444444))</p>
+                <h4>Phone</h4>
+                <p>000-242-4000</p>
+                <h4>Email</h4>
+                <p>fancy.tigerBarbershop@gmail.com</p>
+            </div>
+            <div class="flex-item-right">
+                <form action="proses.php" method="post">
+                    <input type="text" name="name" id="name"placeholder="Your Name">
+                    <input type="text" name="style" id="style" placeholder="Haircut" required >
+                    <input type="text" name="hari" id="hari" placeholder="Day" required>
+                    <input type="text" name="tanggal" id="tanggal" placeholder="Date" required >
+                    <input type="text" name="waktu" id="waktu" placeholder="Time" required >
+                    <input type="text" name="kontak" id="kontak" placeholder=" Your Contact Person" required >
+                    <button type="submit" name="send" value="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

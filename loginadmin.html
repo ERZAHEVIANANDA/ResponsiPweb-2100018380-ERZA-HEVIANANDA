@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <link rel="stylesheet" href="punyasilogin.css">
+    </head>
+   
+    <body>
+        <div class="container">
+          <h1>Login</h1>
+            <form name="forma" method="POST" action="bagianadmin.php">
+                <label>Username</label><br>
+                <input type="text" name="username" id="username" placeholder="Username" >
+                <label>Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Password" >
+                <input type="submit" name="submit" value="Log in">
+            </form>
+        </div>     
+    </body>
+</html>
