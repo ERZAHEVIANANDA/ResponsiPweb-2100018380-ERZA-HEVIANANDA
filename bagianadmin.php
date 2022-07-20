@@ -28,7 +28,8 @@
                 <td>$pisah[5]</td>
                 <td>$pisah[6]</td>
                 </tr>";
-                }
-            }
         echo "</table></center>";
+            }
+        }
+        echo "<a href = index.html>  BACK TO HOME <br/> </a>";
 ?>
