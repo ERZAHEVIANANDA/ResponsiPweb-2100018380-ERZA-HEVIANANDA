@@ -3,13 +3,13 @@
     $tgl = date('Y-m-d');
     $nama = $_POST['name'];
     $style = $_POST['style'];
-    $hari = $_POST['hari'];
+    $saat = $_POST['saat'];
     $tanggal = $_POST['tanggal'];
-    $waktu = (float)$_POST['waktu'];
+    $jam = (float)$_POST['jam'];
     $kontak = (float)$_POST['kontak'];
 
     $fp  = fopen("file.txt", "a+");
-    fputs($fp,"$tgl|$nama|$style|$hari|$tanggal|$waktu|$kontak\n");    
+    fputs($fp,"$tgl|$nama|$style|$saat|$tanggal|$jam|$kontak\n");    
     fclose($fp);
-    echo "<a href = index.html> HOME </a><br>";
+    echo "<a href = index.html>  BACK TO HOME <br/> </a>";
 ?>
