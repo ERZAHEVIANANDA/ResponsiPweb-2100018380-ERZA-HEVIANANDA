@@ -12,7 +12,7 @@
             <td>Model Potongan</td>
             <td>Hari</td>
             <td>Tanggal Booking</td>
-            <td>Waktu</td>
+            <td>Jam</td>
             <td>Kontak</td>
             </tr>";
             {
